@@ -6,7 +6,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
 ol,ul,li{
     list-style: none;
 }
@@ -15,6 +14,7 @@ ol,ul,li{
     margin: 0 auto;
     background-color: black;
     height: 100vh;
+    position: relative;
 }
 
 .row{
@@ -24,6 +24,30 @@ ol,ul,li{
     padding: 80px 40px;
 }
 
-main img{
-    padding: 10px 5px;
+.profile-pic{
+    margin: 10px 5px;
+    position: relative;
 }
+
+.badge{
+    color: white;
+    background-color: rgb(143, 140, 140, 0.6);
+    line-height: 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.badge-position{
+    top: 10px;
+    right: 20px;
+    position: absolute;
+}
+
+.username{
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+}
+

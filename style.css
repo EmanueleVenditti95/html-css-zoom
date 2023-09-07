@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+ol,ul,li{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: black;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 40px;
+}
+
+main img{
+    padding: 10px 5px;
+}

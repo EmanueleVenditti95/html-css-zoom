@@ -15,6 +15,10 @@ ol,ul,li{
     background-color: black;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .row{
@@ -49,5 +53,36 @@ ol,ul,li{
     position: absolute;
     left: 0;
     bottom: 8px;
+}
+
+.toolbar-container{
+    display: flex;
+    background-color: #212121;
+    margin: 0 auto;
+    height: 60px;
+    width: 2000px;
+    position: fixed;
+    bottom: 0;
+}
+
+.toolbar-row {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: end;
+}
+
+.col-2{
+    flex-basis: calc((100% / 12) * 2);
+    display: flex;
+}
+
+.col-8{
+    flex-basis: calc((100% / 12) * 8);
+    display: flex;
+}
+
+.toolbar-icon{
+    font-size: 30px;
 }
 

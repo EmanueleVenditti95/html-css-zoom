@@ -58,8 +58,8 @@ ol,ul,li{
 .toolbar-container{
     background-color: #212121;
     margin: 0 auto;
-    width: 100vw;
-    position: fixed;
+    width: 100%;
+    position: sticky;
     bottom: 0;
 }
 
@@ -75,7 +75,7 @@ ol,ul,li{
     flex-basis: calc((100% / 12) * 2);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .col-10{
@@ -97,7 +97,7 @@ ol,ul,li{
     color: red;
     background-color: #404040;
     padding: 20px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .toolbar-icon-text{
@@ -107,8 +107,7 @@ ol,ul,li{
 }
 
 col{
-    flex-basis: calc((100% / 12) * 10);
+    flex-basis: calc((100% / 12) * 2);   /*PERCHE NON MI PRENDE IL FLEX???*/
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;  
 }

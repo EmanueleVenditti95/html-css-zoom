@@ -56,11 +56,9 @@ ol,ul,li{
 }
 
 .toolbar-container{
-    display: flex;
     background-color: #212121;
     margin: 0 auto;
-    height: 60px;
-    width: 2000px;
+    width: 1000px;
     position: fixed;
     bottom: 0;
 }
@@ -70,6 +68,7 @@ ol,ul,li{
     flex-direction: row; 
     align-items: center; 
     justify-content: end;
+    position: relative;
 }
 
 .col-2{
@@ -77,12 +76,29 @@ ol,ul,li{
     display: flex;
 }
 
-.col-8{
-    flex-basis: calc((100% / 12) * 8);
+.col-10{
+    flex-basis: calc((100% / 12) * 10);
     display: flex;
 }
 
 .toolbar-icon{
     font-size: 30px;
+    padding: 10px 10px 30px 10px;
+    position: relative;
 }
 
+.end-meeting-button{
+    color: red;
+    background-color: #404040;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.toolbar-icon-text{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 12px;
+}
